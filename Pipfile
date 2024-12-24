@@ -7,8 +7,8 @@ name = "pypi"
 fastapi = "*"
 pydantic = "*"
 uvicorn = "*"
+pytest = "*"
 
 [dev-packages]
-
 [requires]
 python_version = "3.12"
