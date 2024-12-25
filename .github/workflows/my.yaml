@@ -21,5 +21,6 @@ jobs:
         run: |
           pipenv sync
           pipenv install unicorn --dev
+          pipenv install pytest --dev
       - name: Start tests
         run: pipenv run python -m pytest my_tests.py
