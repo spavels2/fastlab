@@ -17,8 +17,9 @@ jobs:
       - name: Install pipenv
         run: python -m pip install pipenv
 
-      - name: Pipenv install
+      - name: Pipenvsync
         run: |
-          pipenv install --dev
+          pipenv sync
+          pipenv install unicorn --dev
       - name: Start tests
         run: pipenv run python -m pytest my_tests.py
