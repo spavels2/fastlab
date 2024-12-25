@@ -7,4 +7,4 @@ def sum_two_args(x,y):
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"Hello": "World!"}
