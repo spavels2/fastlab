@@ -20,7 +20,7 @@ jobs:
       - name: Pipenvsync
         run: |
           pipenv sync
-          pipenv install unicorn --dev
+          pipenv install uvicorn --dev
           pipenv install pytest --dev
           pipenv install fastapi --dev
       - name: Start tests
